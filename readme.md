@@ -4,7 +4,7 @@ Here's a set of small vanilla JavaScript challenges. You have to write the code 
 
 - The challenges are located inside the `/challenges` folder.
 - `/data` contains a JSON file that's used for one of the challenges.
-- `/test/` contains the unit tests (written in (Vitest)[https://vitest.dev/], that validates the challenge have been solved correctly. It might help to look at these tests if you are unsure of the expected output from the challenge functions.
+- `/test/` contains the unit tests (written in [Vitest](https://vitest.dev/), that validates the challenge have been solved correctly. It might help to look at these tests if you are unsure of the expected output from the challenge functions.
 
 To get started, you should run:
 
