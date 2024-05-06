@@ -26,4 +26,4 @@ This will validate all the tests - If you just want to validate a specific chall
 npm test challenge-01
 ```
 
-When you run the test, it will run in a `watch` mode so it continues to validate the code when you change it.
+When you run the test, it will run in `watch` mode, so it continues to validate the code when you change it.
