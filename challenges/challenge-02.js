@@ -1,7 +1,6 @@
-
 /**
  * Given a time in the format `hh:mm`, for start and end, calculate the total duration between them.
- * 
+ *
  * @example
  *   durationInHours('00:00', '03:00') => 3;
  *   durationInHours('02:00', '04:00') => 2;
@@ -14,4 +13,3 @@
 export function durationInHours(start, end) {
   // Add code here ‍💻
 }
-

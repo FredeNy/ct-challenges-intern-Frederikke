@@ -131,17 +131,16 @@ const cancelledActs = [
   "Simonis Inc",
   "VonRueden LLC",
   "West - Barton",
-]
+];
 
 test("should build artist list", () => {
   const result = buildArtistList();
   expect(Array.isArray(result)).toBe(true);
 
-  allActs.forEach(act => {
+  allActs.forEach((act) => {
     // Make sure all acts gets returned
-    expect(result).toContain(act)
-  })
-
+    expect(result).toContain(act);
+  });
 });
 
 test("should not contain cancelled acts", () => {
@@ -149,9 +148,9 @@ test("should not contain cancelled acts", () => {
   expect(Array.isArray(result)).toBe(true);
 
   // Break should have been removed
-  expect(result).not.toContain('break')
+  expect(result).not.toContain("break");
 
-  cancelledActs.forEach(act => {
-    expect(result).not.toContain(act)
-  })
+  cancelledActs.forEach((act) => {
+    expect(result).not.toContain(act);
+  });
 });
