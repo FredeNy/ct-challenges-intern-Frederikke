@@ -9,6 +9,31 @@
  * @param shortWeekDay {string} ('mon', 'tue', 'wed', etc...)
  * @return {string}
  **/
-export function convertToWeekDay(shortWeekDay) {
+
+function convertToWeekDay(shortWeekDay) {
   // Add code here ‍💻
+  
+  //Definerer ugedagene
+ const weekDays = {
+  "mon": "Monday",
+  "tue": "Tuesday",
+  "wed": "Wednesday",
+  "thu": "Thursday",
+  "fri": "Friday",
+  "sat": "Saturday",
+  "sun": "Sunday"
+ };
+
+ //Konvertere fra uppercase til lowercase
+const weekDaysLowercase = shortWeekDay.toLowerCase();
+
+//If statement 
+if (weekDays[weekDaysLowercase]) {
+  return weekDays[weekDaysLowercase];
+} else {
+  return "invalid"
 }
+
+};
+//console.log for at tjekke om det virker i konsolen
+console.log(convertToWeekDay("wed"));
