@@ -1,5 +1,6 @@
 import data from "../data/schedule.json";
 
+
 /**
  * Loop through the schedule, and find all the acts that are playing - Then populate a new array with the name (string) of the acts.
  * - Check the `/data/schedule.json` file for JSON structure
